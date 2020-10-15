@@ -1,0 +1,9 @@
+SELECT [expression] FROM Table-Name;
+# How to select all columns from table
+SELECT * FROM employees;
+
+#How to select 2 columns from the table
+SELECT First_Name, Last_Name FROM employees;
+
+#How to do a calculation Simple Arithmatic 
+SELECT last_Name,SALARY, Salary + 1000 FROM employees
